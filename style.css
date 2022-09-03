@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.con1 {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(5, 5, 66);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+.logo {
+  position: absolute;
+  left: 25vh;
+}
+.link1 {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+.link1 a {
+  padding-left: 30px;
+  padding-right: 25px;
+  text-decoration: none;
+  color: white;
+}
+.link2 {
+  position: absolute;
+  right: 10vh;
+  align-items: center;
+  background: #3a68b8;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+.link2 a {
+  padding-right: 25px;
+  text-decoration: none;
+  color: white;
+}
+.con2 {
+  width: 100%;
+  height: 1030px;
+  display: flex;
+  background-color: rgb(5, 5, 66);
+}
+.text {
+  width: 50%;
+}
+.img {
+  width: 632px;
+  height: 634px;
+  position: absolute;
+  left: 800px;
+  top: 149px;
+}
+.text h5 {
+  position: absolute;
+  left: 205px;
+  font-family: "Open Sans", sans-serif;
+  top: 260px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #3a68b8;
+}
+.text h1 {
+  position: absolute;
+  left: 200px;
+  top: 299px;
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 45px;
+  color: #ffffff;
+}
+.text p {
+  position: absolute;
+  left: 200px;
+  top: 440px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  opacity: 0.7;
+  width: 558px;
+  height: 87px;
+}
+.link3 {
+  display: flex;
+  align-items: flex-start;
+  padding: 15px 30px;
+  position: absolute;
+  left: 200px;
+  top: 550px;
+  background: #3a68b8;
+  border-radius: 5px;
+}
+.link3 a {
+  text-decoration: none;
+  color: white;
+}
+.link4 {
+  display: flex;
+  align-items: flex-start;
+  padding: 15px 30px;
+  position: absolute;
+  left: 350px;
+  top: 550px;
+  background: #3a68b8;
+  border-radius: 5px;
+}
+.link4 a {
+  text-decoration: none;
+  color: white;
+}
+.img2 {
+  width: 25%;
+  position: absolute;
+  left: 10%;
+  top: 872px;
+}
+.img3 {
+  width: 25%;
+  position: absolute;
+  left: 30%;
+  top: 872px;
+}
+.img4 {
+  width: 25%;
+  position: absolute;
+  left: 50%;
+  top: 872px;
+}
+.img5 {
+  width: 25%;
+  position: absolute;
+  left: 70%;
+  top: 872px;
+}
+.con3 {
+  width: 100%;
+  height: 969px;
+  display: flex;
+  background-color: rgb(5, 5, 66);
+}
+.img6 {
+  position: absolute;
+  width: 50%;
+  left: 190px;
+  top: 1160px;
+}
+.text {
+  width: 50%;
+}
+.text2 h1 {
+  position: absolute;
+  left: 900px;
+  top: 1338px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.text2 p {
+  position: absolute;
+  left: 900px;
+  top: 1472px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.link5 {
+  display: flex;
+  align-items: flex-start;
+  padding: 15px 30px;
+  position: absolute;
+  left: 900px;
+  top: 1600px;
+  background: #3a68b8;
+  border-radius: 5px;
+}
+.link5 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.con4 {
+  width: 100%;
+  height: 389px;
+  background-color: rgb(5, 5, 66);
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.menu {
+  width: 18%;
+  height: 320px;
+  margin-top: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(22, 29, 70, 0.2) -41.9%,
+    #221070 115.68%
+  );
+  backdrop-filter: blur(200px);
+  justify-content: space-evenly;
+}
+.menu h1 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-top: 15px;
+}
+.menu p {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+.con5 {
+  width: 100%;
+  height: 956px;
+  display: flex;
+  background-color: rgb(10, 10, 44);
+}
+.text3 {
+  width: 50%;
+}
+.img7 {
+  width: 50%;
+}
+.text3 h1 {
+  position: absolute;
+  left: 220px;
+  top: 2667px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+}
+.text3 p {
+  position: absolute;
+  width: 460px;
+  height: 78px;
+  left: 220px;
+  top: 2811px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.text4 p {
+  position: absolute;
+  width: 460px;
+  height: 52px;
+  left: 220px;
+  top: 2909px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.text5 p {
+  position: absolute;
+  width: 460px;
+  height: 52px;
+  left: 220px;
+  top: 2981px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.text6 p {
+  position: absolute;
+  width: 460px;
+  height: 78px;
+  left: 220px;
+  top: 3053px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.img7 {
+  position: absolute;
+  width: 642px;
+  height: 551px;
+  left: 850px;
+  top: 2623px;
+}
+.img8 {
+  position: absolute;
+  width: 65px;
+  height: 15px;
+  left: 740px;
+  top: 2500px;
+}
+.con6 {
+  width: 100%;
+  height: 508px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 5, 66);
+}
+.first {
+  color: #ffffff;
+}
+.first li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+#lorem {
+  width: 261px;
+  height: 54px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  opacity: 0.6;
+}
+#art {
+  color: #3a68b8;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+.second {
+  color: #ffffff;
+}
+.second li {
+  list-style: none;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.A {
+  color: white;
+}
+.third {
+  color: #ffffff;
+}
+.third li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+.fourth {
+  color: #ffffff;
+}
+.fourth li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+.fifth {
+  color: #ffffff;
+}
+.fifth li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+select {
+  background-color: transparent;
+  color: white;
+}
+.fifth ul li i {
+  padding-right: 10px;
+}
